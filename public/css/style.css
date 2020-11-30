@@ -1,0 +1,185 @@
+@media only screen and (min-width:320px) and (max-width: 991.98px) { 
+    .home_view{
+        padding-right: 0;
+        padding-left: 30px;
+    }
+    .report-inputs{
+        margin-bottom: 5px;
+    }
+    .app-footer .app-footer__inner .app-footer-right {
+        display: block !important;
+    }
+
+    .add-more-and-delete {
+        margin-top: 0px;
+    }
+}
+
+.newcss{
+    margin-right: 0 !important;   
+}
+
+.is-invalid{
+	color: red;
+}
+
+.app-header__logo .logo-src {
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.alert {
+    position: absolute;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    left: 35%;
+    top: 6px;
+    z-index: 999;
+    width: 400px;
+    text-align: center;
+}
+
+.home_view{
+    padding-right: 175px;
+    padding-left: 175px !important;
+}
+
+.print-pdf-excel{
+    padding-top: 2px;
+}
+
+.report-inputs{
+    margin-left: 5px;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff !important;
+    border: 1px solid #ced4da !important;
+    border-radius: 4px !important;
+    padding: 5px 0 !important;
+    height: 38px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444 !important;
+    line-height: 28px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-color: #888 transparent transparent transparent !important;
+    border-style: solid !important;
+    border-width: 5px 4px 0 4px !important;
+    height: 0 !important;
+    left: 50% !important;
+    margin-left: -4px !important;
+    margin-top: -2px !important;
+    position: absolute !important;
+    top: 74% !important;
+    width: 0 !important;
+}
+
+.select2-container .select2-selection--multiple {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    min-height: 38px !important;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: solid 1px #ced4da !important;
+    outline: 0;
+}
+
+.fa-xs {
+    font: normal normal normal 10px/1 FontAwesome !important;
+    font-size: .55em !important;
+    color: red;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 2px;
+}
+
+.employee-image {
+    width: 97px;
+    height: 97px;
+}
+
+.pdf-print-excel-edit-delete {
+    padding-top: 10px;
+}
+
+.report-text-right {
+    text-align: right;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, 
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+    top: 20px;
+    left: -25px;
+    height: 14px;
+    width: 14px;
+    display: inherit;
+    position: relative;
+    color: white;
+    border: 2px solid white;
+    border-radius: 14px;
+    box-shadow: 0 0 3px #444;
+    box-sizing: content-box;
+    text-align: center;
+    text-indent: 0 !important;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 14px;
+    content: '+';
+    background-color: #0275d8;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, 
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {
+    content: '-';
+    background-color: #d33333;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child, 
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    padding-bottom: 22px;
+}
+
+.btn-print {
+    color: #000000;
+    background-color: #07efc4;
+    border-color: #07efc4;
+}
+
+.btn-pdf {
+    color: #d92550;
+    background-color: #faf20f;
+    border-color: #faf20f;
+}
+
+.btn-excel {
+    color: #3ac47d;
+    background-color: #e0f3ff;
+    border-color: #e0f3ff;
+}
+
+.header-btn-lg::before {
+    position: absolute;
+    left: -1px;
+    top: 50%;
+    background: #fff;
+    width: 0px;
+    height: 0px;
+    margin-top: -15px;
+    content: '';
+}
+
+.add-more-and-delete {
+    margin-top: 30px;
+}
